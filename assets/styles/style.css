@@ -1,0 +1,46 @@
+body{
+    padding-bottom: 100px;  /*Padding to activate scroll on fixed footer*/
+}
+/*Preset styles*/
+.pt-20{
+    padding-top: 20px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+/*Center align main-menu in desktop, tablet view*/
+@media (min-width: 768px){
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+        z-index: 1;
+    }
+}
+/*Footer styles*/
+footer{
+    background-color: #888888;
+    padding: 15px 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+/*Validation error msg color*/
+label.error{
+    color: #FF0000;
+}
+/*Sprite icons*/
+.icon{
+    background:url(sprites/exercise-image-sprites.png) no-repeat;
+    background-size: 51px;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    top: 3px;
+}
+.plus{
+    background-position: 0 0;
+}
+.delete{
+    background-position: -15px 0;
+}
