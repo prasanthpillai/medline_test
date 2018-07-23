@@ -5,7 +5,7 @@ medLine.dataGrid = (function (w, d, $) {
     // Private variables and methods
     var _this = {
         colProps: [],                       // Helper array to store column data
-        rowsToDelete: [],                   // Hekper array to store elements marked for deletion
+        rowsToDelete: [],                   // Helper array to store elements marked for deletion
         addColBtn: $("#addColumn"),
         delColBtn: $("#delColumn"),
         masterTable: $("#masterTable"),
