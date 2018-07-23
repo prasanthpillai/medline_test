@@ -70,10 +70,8 @@ medLine.dataGrid = (function (w, d, $) {
                     var optionF = d.createElement("option");
                     optionT.value = "1";
                     optionT.text = "Yes";
-
                     optionF.value = "0";
                     optionF.text = "No";
-
                     element.add(optionT, null);
                     element.add(optionF, null);
                 }
